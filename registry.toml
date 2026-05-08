@@ -8,18 +8,18 @@ skill_path = "SKILL.md"
 tags = ["testing", "frontend", "e2e"]
 description = "Playwright E2E 测试最佳实践"
 
-[skills.git-commit-message]
+[skills.test-driven-development]
 type = "github"
-source = "AbanteAI/git-commit-message-skill"
+source = "obra/superpowers"
 ref = "main"
-skill_path = "SKILL.md"
-tags = ["git", "workflow"]
-description = "自动生成 Conventional Commits 格式的 commit message"
+skill_path = "skills/test-driven-development/SKILL.md"
+tags = ["testing", "workflow", "tdd"]
+description = "TDD 红绿重构工作流"
 
-[skills.vercel-react-best-practices]
+[skills.systematic-debugging]
 type = "github"
-source = "vercel-labs/react-best-practices-skill"
+source = "obra/superpowers"
 ref = "main"
-skill_path = "SKILL.md"
-tags = ["frontend", "react", "performance"]
-description = "Vercel 官方 React/Next.js 性能优化指南"
+skill_path = "skills/systematic-debugging/"
+tags = ["debugging", "workflow"]
+description = "系统化调试方法论（四阶段排查流程）"
