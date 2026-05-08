@@ -1,0 +1,25 @@
+schema_version = 1
+
+[skills.playwright-best-practices]
+type = "github"
+source = "currents-dev/playwright-best-practices-skill"
+ref = "main"
+skill_path = "SKILL.md"
+tags = ["testing", "frontend", "e2e"]
+description = "Playwright E2E 测试最佳实践"
+
+[skills.git-commit-message]
+type = "github"
+source = "AbanteAI/git-commit-message-skill"
+ref = "main"
+skill_path = "SKILL.md"
+tags = ["git", "workflow"]
+description = "自动生成 Conventional Commits 格式的 commit message"
+
+[skills.vercel-react-best-practices]
+type = "github"
+source = "vercel-labs/react-best-practices-skill"
+ref = "main"
+skill_path = "SKILL.md"
+tags = ["frontend", "react", "performance"]
+description = "Vercel 官方 React/Next.js 性能优化指南"
